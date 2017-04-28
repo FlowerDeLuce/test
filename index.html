@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/styles.css"> 
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<div class="person">
+		<div class="person__photo-holder">
+			<!--<img class="person__photo-img" src="img/person.png">-->
+		</div>
+		<div class="person__info">
+			<h1 class="person__name"> Вероника Ростова </h1>
+			<div class="person__status"> 
+				Менеджер по продажам
+			</div>
+		</div>
+		<div class="person__offer">
+			Подберу для вас самые лучшие предложения. <br>
+			Мои услуги абсолютно бесплатны
+		</div>
+	</div>
+	<div class="services">
+			<table class="services__table">
+			<tr > <td class="bordered-cell"></td> 
+				<td colspan="2" class="table-caption bordered-cell"> Услуг</td></tr>
+			<tr class="services__table-row-empty"> <td colspan="2"></td></tr>
+				<tr class="services__table-row"> <td class="bordered-hand"> Ручное бронирование </td> <td class="amount">11 </td> </tr>
+				<tr class="services__table-row">  <td class="bordered-pack">  Пакетные туры</td> <td class="amount"> 3</td> </tr>
+				<tr class="services__table-row"><td class="bordered-hot"> Отели</td> <td class="amount">1 </td> </tr>
+				<tr class="services__table-row-empty"> <td class="bordered-cell" ></td> <td class="bordered-cell"></td></tr>
+				<tr>  <td class="bordered-cell-top"> Всего</td> <td class=" bordered-cell-top amount">15</td> </tr>
+			</table>
+	</div>
+	<div class="reviews">
+		<div class="reviews__header">
+			<ul class="reviews__header-list">
+				<li class="reviews__header-list__item">
+					<a href="#" class="reviews__header-list__item-link reviews__header-list__item-link--active">
+					Последние отзывы
+					</a>
+
+				</li>
+				<li class="reviews__header-list__item">
+					<a  href="#" class="reviews__header-list__item-link ">
+					Все отзывы
+					</a>
+
+				</li>
+			</ul>
+			
+			<ul class="reviews__header-list-right">	
+				<li class="reviews__header-list__item">
+					<a href="#" class="reviews__header-list__item-link reviews__header-list__item-link--likes">
+					<span class="like-icon"><img src="img/like.png" class="like-icon-pic"></span> <span class="count">131 </span> </a>
+				</li>
+				<li class="reviews__header-list__item">
+					<a href="#" class="reviews__header-list__item-link reviews__header-list__item-link--likes">
+					<span class="like-icon"><img src="img/comment.png" class="like-icon-pic comment-pic"></span> <span class="count">14 </span>
+				</li></a>
+			</ul>	
+			
+		</div>
+		<div class="comments-list">
+			<div class="comments-item">
+				<div class="comments-item__name">
+				Самуил
+				</div>
+				<div class="comments-item__date">
+				13 октября 2011 
+				</div>
+				<div class="comments-text">
+				   <span class="triangle"></span>
+				Привет, Верунь! ниче себе ты крутая. фотка класс!!!! 
+				</div>
+			</div>
+
+			<div class="comments-item">
+				<div class="comments-item__name">
+				Лилия Семёновна
+				</div>
+				<div class="comments-item__date">
+				14 октября 2011 
+				</div>
+				<div class="comments-text">
+				   <span class="triangle"></span>
+				Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами? 
+				</div>
+			</div>
+
+			<div class="comments-item">
+				<div class="comments-item__name">
+				Самуил
+				</div>
+				<div class="comments-item__date">
+				14 октября 2011 
+				</div>
+				<div class="comments-text">
+				   <span class="triangle"></span>
+				Привет, Верунь! ниче себе ты крутая. фотка класс!!!! 
+				</div>
+			</div>
+		</div>
+		<div class="new-comment">
+			<textarea id="textarea" rows="4"></textarea>
+			<div class="new-comment__send-button">
+				<a id="send-button__link"> Написать консультанту </a>
+			</div>
+		</div>
+	</div>
+</body>
